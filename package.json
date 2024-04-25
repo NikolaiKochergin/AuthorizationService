@@ -1,6 +1,6 @@
 {
-  "name": "com.verveplacke.authorization",
-  "version": "1.0.1",
+  "name": "com.verveplace.authorization",
+  "version": "1.0.2",
   "displayName": "Authorization Service",
   "description": "This is an authorization service package",
   "unity": "2019.1",
@@ -8,11 +8,12 @@
   "dependencies": {
     "com.unity.textmeshpro": "3.0.8"
   },
+  "author": "github.com/NikolaiKochergin",
   "samples": [
     {
       "displayName": "Authorization Window Sample",
-      "description": "",
-      "path": "Example~/Authorization Window Sample"
+      "description": "Authorization Window Sample",
+      "path": "Samples~/Authorization Window Sample"
     }
   ]
 }
