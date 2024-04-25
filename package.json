@@ -1,6 +1,6 @@
 {
   "name": "com.verveplacke.authorization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Authorization Service",
   "description": "This is an authorization service package",
   "unity": "2019.1",

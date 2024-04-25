@@ -6,8 +6,6 @@ namespace VervePlace
 {
     public class AuthorizationExample : MonoBehaviour
     {
-        private const string Main = "http://<database>/";
-
         [SerializeField] private TMP_InputField _login;
         [SerializeField] private TMP_InputField _password;
         [SerializeField] private TMP_InputField _confirmPassword;
@@ -18,12 +16,13 @@ namespace VervePlace
         [SerializeField] private Button _authorizationButton;
         [SerializeField] private GameObject _authorizationView;
         [SerializeField] private GameObject _registrationView;
+        [SerializeField] private string _mainURL = "http://<database>/";
         
         private IAuthorizationService _authorization;
         private bool _isRegistrationViewActive;
 
         private void Awake() => 
-            _authorization = new AuthorizationService(Main);
+            _authorization = new AuthorizationService(_mainURL);
 
         private void Start()
         {
